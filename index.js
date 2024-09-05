@@ -22,9 +22,9 @@ const part1 = "java";
 const part2 = "script";
 
 // Convert the last letter of part1 and part2 to uppercase and concatenate the strings
-const part1Start = part1.slice(0,3);
+const part1Start = part1.slice(0,part1.length -1);
 const part1End = part1[3].toUpperCase();
-const part2Start = part2.slice(0,5);
+const part2Start = part2.slice(0,part2.length -1);
 const part2End = part2[5].toUpperCase();
 
 const result =   part1Start + part1End + part2Start + part2End;
